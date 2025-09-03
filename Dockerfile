@@ -8,11 +8,12 @@ WORKDIR $HOME
 
 ######### Customize Container Here ###########
 
-### Install sudo
+### Install sudo and grant kasm-user sudo privileges
 RUN apt-get update \
     && apt-get install -y sudo \
     && echo 'kasm-user ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
 
+### Install software
 RUN apt update && apt install -y \
 	ffuf \
 	dirb \
