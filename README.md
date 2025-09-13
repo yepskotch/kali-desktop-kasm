@@ -37,6 +37,7 @@ eyewitness
 php
 socat
 tmux
+proxychains
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
