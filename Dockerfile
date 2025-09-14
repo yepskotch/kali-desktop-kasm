@@ -46,7 +46,8 @@ RUN apt update && apt install -y \
 	php \
 	socat \
 	tmux \
-	proxychains
+	proxychains \
+	sshuttle
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y

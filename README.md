@@ -38,6 +38,7 @@ php
 socat
 tmux
 proxychains
+sshuttle
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
