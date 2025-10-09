@@ -15,6 +15,29 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Free up disk space
+        run: |
+          # Display initial disk space
+          echo "Initial disk space:"
+          df -h
+
+          # Remove unnecessary large packages
+          sudo apt-get remove -y '^dotnet-.*' '^llvm-.*' '^mono-.*' '^mysql-.*' '^php.*' '^mongodb-.*' '^google-.*'
+          sudo apt-get autoremove -y
+          sudo apt-get clean
+
+          # Remove Android SDK, large packages
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /opt/hostedtoolcache/CodeQL
+
+          # Remove Docker images not needed
+          docker image prune -af
+
+          # Display freed up space
+          echo "Disk space after cleanup:"
+          df -h
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
