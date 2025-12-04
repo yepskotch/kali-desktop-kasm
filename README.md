@@ -40,6 +40,7 @@ tmux
 proxychains
 sshuttle
 faketime
+dos2unix
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.

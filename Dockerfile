@@ -48,7 +48,8 @@ RUN apt update && apt install -y \
 	tmux \
 	proxychains \
 	sshuttle \
-	faketime
+	faketime \
+	dos2unix
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y
