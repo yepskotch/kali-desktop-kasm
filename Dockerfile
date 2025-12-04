@@ -47,7 +47,8 @@ RUN apt update && apt install -y \
 	socat \
 	tmux \
 	proxychains \
-	sshuttle
+	sshuttle \
+	faketime
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y

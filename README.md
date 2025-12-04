@@ -39,6 +39,7 @@ socat
 tmux
 proxychains
 sshuttle
+faketime
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
