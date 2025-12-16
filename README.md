@@ -41,6 +41,9 @@ proxychains
 sshuttle
 faketime
 dos2unix
+mingw-w64
+binutils-mingw-w64
+g++-mingw-w64
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.

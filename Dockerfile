@@ -49,7 +49,10 @@ RUN apt update && apt install -y \
 	proxychains \
 	sshuttle \
 	faketime \
-	dos2unix
+	dos2unix \
+    mingw-w64 \
+	binutils-mingw-w64 \
+	g++-mingw-w64
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y
