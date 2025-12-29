@@ -52,7 +52,9 @@ RUN apt update && apt install -y \
 	dos2unix \
     mingw-w64 \
 	binutils-mingw-w64 \
-	g++-mingw-w64
+	g++-mingw-w64 \
+	jq \
+	bloodhound-ce-python
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y
