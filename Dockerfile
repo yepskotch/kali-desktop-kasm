@@ -54,7 +54,8 @@ RUN apt update && apt install -y \
 	binutils-mingw-w64 \
 	g++-mingw-w64 \
 	jq \
-	bloodhound-ce-python
+	bloodhound-ce-python \
+	python3-pwntools
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y

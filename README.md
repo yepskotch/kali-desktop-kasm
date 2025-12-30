@@ -46,6 +46,7 @@ binutils-mingw-w64
 g++-mingw-w64
 jq
 bloodhound-ce-python
+python3-pwntools
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
