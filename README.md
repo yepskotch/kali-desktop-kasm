@@ -47,6 +47,7 @@ g++-mingw-w64
 jq
 bloodhound-ce-python
 python3-pwntools
+apktool
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.

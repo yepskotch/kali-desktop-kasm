@@ -55,7 +55,8 @@ RUN apt update && apt install -y \
 	g++-mingw-w64 \
 	jq \
 	bloodhound-ce-python \
-	python3-pwntools
+	python3-pwntools \
+	apktool
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y
