@@ -56,7 +56,8 @@ RUN apt update && apt install -y \
 	jq \
 	bloodhound-ce-python \
 	python3-pwntools \
-	apktool
+	apktool \
+	kitty
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y

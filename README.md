@@ -48,6 +48,7 @@ jq
 bloodhound-ce-python
 python3-pwntools
 apktool
+kitty
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
