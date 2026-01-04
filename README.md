@@ -1,7 +1,7 @@
 # kali-desktop-kasm
 
 
-Based on `kasmweb/kali-rolling-desktop:1.17.0-rolling-weekly`.
+Based on `kasmweb/kali-rolling-desktop:1.18.0-rolling-weekly`.
 
 Custom Kali Desktop image for [Kasm Web](https://kasmweb.com/) that installs the following additional packages:
 

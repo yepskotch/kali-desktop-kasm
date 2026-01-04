@@ -1,4 +1,4 @@
-FROM kasmweb/kali-rolling-desktop:1.17.0-rolling-weekly
+FROM kasmweb/kali-rolling-desktop:1.18.0-rolling-weekly
 USER root
 
 ENV HOME=/home/kasm-default-profile
