@@ -66,6 +66,9 @@ RUN apt update && apt install -y \
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y
 
+## Add kasm-user to docker group
+RUN usermod -aG docker kasm-user
+
 ######### End Customizations ###########
 
 RUN chown 1000:0 $HOME
