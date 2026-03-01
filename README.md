@@ -49,6 +49,8 @@ bloodhound-ce-python
 python3-pwntools
 apktool
 kitty
+bloodyad
+coercer
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
