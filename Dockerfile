@@ -59,7 +59,8 @@ RUN apt update && apt install -y \
 	apktool \
 	kitty \
 	bloodyad \
-	coercer
+	coercer \
+	docker.io
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y

@@ -51,6 +51,7 @@ apktool
 kitty
 bloodyad
 coercer
+docker.io
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
