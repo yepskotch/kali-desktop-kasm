@@ -60,7 +60,8 @@ RUN apt update && apt install -y \
 	kitty \
 	bloodyad \
 	coercer \
-	docker.io
+	docker.io \
+	docker-compose
 
 ## Cleaning
 RUN apt-get autoremove -y && apt-get autoclean -y

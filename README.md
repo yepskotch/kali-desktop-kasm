@@ -52,6 +52,7 @@ kitty
 bloodyad
 coercer
 docker.io
+docker-compose
 ```
 
 The image rebuilds weekly after the Kasm Web weekly rolling image has been released.
